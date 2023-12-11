@@ -1,4 +1,4 @@
-[
+export default [
   {
     "question": "What is Frontend Mentor, and how will it help me?",
     "answer": `Frontend Frontend Mentor offers realistic coding challenges to help developers improve their
