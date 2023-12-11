@@ -57,6 +57,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 h2 {
@@ -81,4 +82,6 @@ p {
   color: hsl(292, 16%, 49%);
   font-size: .9rem;
   line-height: 1.4rem;
+  display: flex;
+  justify-content: flex-start;
 }
