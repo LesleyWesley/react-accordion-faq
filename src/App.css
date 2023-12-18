@@ -76,7 +76,7 @@ button {
   aspect-ratio: 1;
   border-radius: 50%;
   border: none;
-  background-image: url("../src/assets/icon-minus.svg");
+  /*background-image: url("../src/assets/icon-minus.svg");*/
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
