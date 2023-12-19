@@ -27,6 +27,7 @@ body {
 .app {
   background-color: #FFF;
   width: 85%;
+  max-width: 38rem;
   margin: 9rem 0;
   border-radius: .5rem;
   padding: 1rem 1.25rem;
@@ -88,4 +89,21 @@ p {
   line-height: 1.4rem;
   display: flex;
   justify-content: flex-start;
+}
+
+@media (min-width: 700px) {
+  body {
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../src/assets/background-pattern-desktop.svg");
+  }
+
+  #root {
+
+  }
+
+  .app {
+    padding: 2rem;
+  }
 }
