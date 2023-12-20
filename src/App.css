@@ -90,8 +90,8 @@ button {
   background-repeat: no-repeat;
 }
 
-button: hover,
-button: hover {
+button:active,
+button:hover {
   cursor: pointer;
 }
 
