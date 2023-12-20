@@ -27,10 +27,11 @@ body {
 .app {
   background-color: #FFF;
   width: 85%;
-  max-width: 38rem;
+  max-width: 35rem;
   margin: 9rem 0;
   border-radius: .5rem;
   padding: 1rem 1.25rem;
+  box-shadow: 0 0 2rem hsla(292, 42%, 14%, 25%);
 }
 
 header {
@@ -99,11 +100,25 @@ p {
     background-image: url("../src/assets/background-pattern-desktop.svg");
   }
 
-  #root {
-
-  }
-
   .app {
     padding: 2rem;
+    margin-top: 10rem;
+  }
+
+  header {
+    margin-bottom: 1.25rem;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+    margin: 0;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  button {
+    height: 1.75rem;
   }
 }
