@@ -13,10 +13,10 @@ function QuestionSection(props) {
   }
 
   return (
-    <div className="single-question">
+    <div className="single-question" onClick={toggle}>
         <div className="question-heading">
             <h2>{props.question.question}</h2>
-            <button type="button" onClick={toggle} style={styles}></button>
+            <button type="button" style={styles}></button>
         </div>
         {open &&
           <p className="answer">
