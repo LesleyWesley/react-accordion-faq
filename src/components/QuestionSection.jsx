@@ -5,7 +5,7 @@ function QuestionSection(props) {
   const [open, setOpen] = React.useState(props.question.open)
 
   const styles = {
-    backgroundImage: open ? `url("../src/assets/icon-minus.svg")` : `url("../src/assets/icon-plus.svg")`
+    backgroundImage: open ? `url("icon-minus.svg")` : `url("icon-plus.svg")`
   }
 
   function toggle() {
