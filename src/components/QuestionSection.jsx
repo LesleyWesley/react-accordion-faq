@@ -2,7 +2,7 @@ import React from "react"
 
 function QuestionSection(props) {
 
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(props.question.open)
 
   const styles = {
     backgroundImage: open ? `url("../src/assets/icon-minus.svg")` : `url("../src/assets/icon-plus.svg")`
